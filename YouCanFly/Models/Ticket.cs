@@ -9,5 +9,7 @@ namespace YouCanFly.Models
     {
         public int Id { get; set; }
         public int TicketNumber { get; set; }
+       
+
     }
 }

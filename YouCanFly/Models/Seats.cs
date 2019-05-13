@@ -12,6 +12,11 @@ namespace YouCanFly.Models
         public string SeatsType { get; set; }
 
         public string SeatsColor { get; set; }
+        //one to many
+        public Planes Planes { get; set; }
+
+        public Ticket Ticket { get; set; }
+
 
     }
 }
