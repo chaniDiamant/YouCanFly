@@ -9,13 +9,20 @@ namespace YouCanFly.Models
     public class Destinations
     {
         public int  Id { get; set; }
+
         public string Name { get; set; }
+
         public string Continent { get; set; }
+
         public string Language { get; set; }
+
         public char CurrencyValue { get; set; }
+
         public string DestinationType { get; set; }
 
-     
+        public ICollection<Flight> Flights { get; set; }
+
+        public ICollection<Ticket> Tickets { get; set; }
 
     }
 }

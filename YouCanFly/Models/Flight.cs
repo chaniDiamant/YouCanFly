@@ -20,5 +20,11 @@ namespace YouCanFly.Models
         public DateTime LandingDate { get; set; }
 
         public double PriceFlight { get; set; }
+        // One to many
+        public Destinations Destinations { get; set; }
+
+        public Planes Planes { get; set; }
+
+        public ICollection<Ticket> Tickets { get; set; }
     }
 }
