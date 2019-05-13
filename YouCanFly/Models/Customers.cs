@@ -20,5 +20,9 @@ namespace YouCanFly.Models
         public int CustomerPhone { get; set; }
 
         public DateTime CustomerDateBirth { get; set; }
+
+        public ICollection<Orders> Orderses { get; set; }
+
+
     }
 }
