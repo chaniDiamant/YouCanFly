@@ -20,6 +20,7 @@ namespace YouCanFly.Models
         public int CustomerPhone { get; set; }
 
         public DateTime CustomerDateBirth { get; set; }
+        hhhhh
 
     }
 }
