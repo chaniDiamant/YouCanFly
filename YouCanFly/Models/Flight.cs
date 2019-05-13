@@ -7,6 +7,7 @@ namespace YouCanFly.Models
 {
     public class Flight
     {
+        ///בדיקה
         public int Id { get; set; }
         public int FlightNumber { get; set; }
         public string TakeOffTime { get; set; }
