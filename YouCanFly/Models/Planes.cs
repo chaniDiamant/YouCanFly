@@ -17,6 +17,11 @@ namespace YouCanFly.Models
 
         public double PlanesWeight { get; set; }
 
+        //many to many
+        public ICollection<Planes> Planeses { get; set; }
+
+        public ICollection<Seats> Seatses { get; set; }
+
 
     }
 }
