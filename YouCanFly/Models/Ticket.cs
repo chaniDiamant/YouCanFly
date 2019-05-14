@@ -19,7 +19,7 @@ namespace YouCanFly.Models
 
         public Customers Customer { get; set; }
 
-        public Seats Seat { get; set; }
+        public ICollection<Seats> Seatses { get; set; }
 
       
         public Classes Class { get; set; }//לשנות לשם הנכון של המחלקה

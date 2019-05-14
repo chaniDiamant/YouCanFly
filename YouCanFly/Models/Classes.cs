@@ -15,6 +15,7 @@ namespace YouCanFly.Models
         public float ExtraPrice { get; set; }
 
         public ICollection<Ticket> Tickets { get; set; }
-         
+        public ICollection<PlaneUnit> PlaneUnits { get; set; }
+
     }
 }

@@ -8,7 +8,7 @@ namespace YouCanFly.Models
 {
     public class Destinations //יחיד
     {
-        public int DestinationId { get; set; }
+        public int DestinationsId { get; set; }
 
         public string Name { get; set; }
 
@@ -16,7 +16,7 @@ namespace YouCanFly.Models
 
         public string Language { get; set; }
 
-        public char CurrencyValue { get; set; }
+        public string CurrencyValue { get; set; }
 
   
 
