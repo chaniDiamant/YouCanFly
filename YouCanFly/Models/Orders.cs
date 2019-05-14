@@ -9,11 +9,9 @@ namespace YouCanFly.Models
     {
         public int Id { get; set; }
 
+        public DateTime Date { get; set; }
 
-       
-        public DateTime OrderDate { get; set; }
-
-        public Customers Customers { get; set; }
+        public Customers Customer { get; set; }
 
         public ICollection<Ticket> Tickets { get; set; }
     }

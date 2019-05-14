@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace YouCanFly.Models
 {
-    public class Seats
+    public class Seats //יחיד
     {
-        public int SeatsId { get; set; }
+        public int Id { get; set; }
 
-        public string SeatsColor { get; set; }
+        public string Color { get; set; }
         //one to many
         public Planes Planes { get; set; }
 

@@ -1,25 +1,27 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace YouCanFly.Models
 {
-    public class Customers
+    public class Customers //customer
     {
-        public int Id { get; set; }
+        [Key]
+        [DisplayName("מספר דרכון")]
+        public int Passport { get; set; }
 
-        public int CustomerPassport { get; set; }
+        public string Name { get; set; }
 
-        public string CustomerName { get; set; }
+        public string Country { get; set; }
 
-        public string CustomerCountry { get; set; }
+        public string Address { get; set; }
 
-        public string CustomerAddress { get; set; }
+        public int Phone { get; set; }
 
-        public int CustomerPhone { get; set; }
-
-        public DateTime CustomerDateOfBirth { get; set; }
+        public DateTime DateOfBirth { get; set; }
 
         public ICollection<Orders> Orderses { get; set; }
 

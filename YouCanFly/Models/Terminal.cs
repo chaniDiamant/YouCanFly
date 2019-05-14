@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Security.AccessControl;
 using System.Threading.Tasks;
@@ -8,7 +9,7 @@ namespace YouCanFly.Models
 {
     public class Terminal
     {
-        public int Id { get; set; }
+        [Key]
         public string Name { get; set; }
 
 

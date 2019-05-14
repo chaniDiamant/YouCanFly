@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace YouCanFly.Models
 {
-    public class Classes
+    public class Classes //לשנות שם ליחיד +לשנות שם של המודל ל///unit
     {
         public int Id { get; set; }
 
@@ -14,5 +14,6 @@ namespace YouCanFly.Models
         public double ExtraPrice { get; set; }
 
         public ICollection<Ticket> Tickets { get; set; }
+         
     }
 }

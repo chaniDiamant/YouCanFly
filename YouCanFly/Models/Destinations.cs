@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.TagHelpers.Internal;
 
 namespace YouCanFly.Models
 {
-    public class Destinations
+    public class Destinations //יחיד
     {
         public int  Id { get; set; }
 
