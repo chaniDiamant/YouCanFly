@@ -12,7 +12,7 @@ namespace YouCanFly.Models
 
         public string Name { get; set; }
 
-        public double ExtraPrice { get; set; }
+        public float ExtraPrice { get; set; }
 
         public ICollection<Ticket> Tickets { get; set; }
          
