@@ -8,7 +8,7 @@ namespace YouCanFly.Models
 {
     public class Planes //יחיד
     {
-        public int Id { get; set; }
+        public int PlaneId { get; set; }
 
         public string Name { get; set; }
 

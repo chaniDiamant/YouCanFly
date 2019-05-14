@@ -7,7 +7,7 @@ namespace YouCanFly.Models
 {
     public class Orders
     {
-        public int Id { get; set; }
+        public int OrderId { get; set; }
 
         public DateTime Date { get; set; }
 

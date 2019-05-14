@@ -7,7 +7,7 @@ namespace YouCanFly.Models
 {
     public class Seats //יחיד
     {
-        public int Id { get; set; }
+        public int SeatId { get; set; }
 
         public string Color { get; set; }
         //one to many
