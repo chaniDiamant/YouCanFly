@@ -9,8 +9,6 @@ namespace YouCanFly.Models
     {
         public int SeatsId { get; set; }
 
-        public string SeatsType { get; set; }
-
         public string SeatsColor { get; set; }
         //one to many
         public Planes Planes { get; set; }

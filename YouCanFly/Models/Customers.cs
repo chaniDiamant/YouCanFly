@@ -13,13 +13,13 @@ namespace YouCanFly.Models
 
         public string CustomerName { get; set; }
 
-        public string CustomerContry { get; set; }
+        public string CustomerCountry { get; set; }
 
-        public string CustomerAdress { get; set; }
+        public string CustomerAddress { get; set; }
 
         public int CustomerPhone { get; set; }
 
-        public DateTime CustomerDateBirth { get; set; }
+        public DateTime CustomerDateOfBirth { get; set; }
 
         public ICollection<Orders> Orderses { get; set; }
 

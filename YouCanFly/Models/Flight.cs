@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -7,23 +8,19 @@ namespace YouCanFly.Models
 {
     public class Flight
     {
-        public int Id { get; set; }
-
+        [Key]
         public int FlightNumber { get; set; }
 
-        public string TakeOffTime { get; set; }
+        public DateTime TakeOff { get; set; }
 
-        public  string LandingTime { get; set; }
+        public DateTime Landing { get; set; }
 
-        public DateTime TakeOffDate { get; set; }
-
-        public DateTime LandingDate { get; set; }
-
-        public double PriceFlight { get; set; }
+        public double Price { get; set; }
         // One to many
-        public Destinations Destinations { get; set; }
+        public Terminal Terminal { get; set; } 
+        public Destinations Destination { get; set; }
 
-        public Planes Planes { get; set; }
+        public Planes Plane { get; set; }
 
         public ICollection<Ticket> Tickets { get; set; }
     }
