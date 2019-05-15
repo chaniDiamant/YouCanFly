@@ -16,7 +16,7 @@ namespace YouCanFly.Models
         public DateTime Landing { get; set; }
 
         public float Price { get; set; }
-        // One to many
+
         public Terminal Terminal { get; set; } 
         public Destinations Destination { get; set; }
 
