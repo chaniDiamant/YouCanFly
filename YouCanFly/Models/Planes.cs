@@ -19,7 +19,7 @@ namespace YouCanFly.Models
         public ICollection<Flight> Flights { get; set; }
 
         public ICollection<Seats> Seatses { get; set; }
-        public ICollection<PlaneUnit> PlaneUnits { get; set; }
+        public ICollection<PlaneDepartment> PlaneDepartments { get; set; }
 
 
     }
