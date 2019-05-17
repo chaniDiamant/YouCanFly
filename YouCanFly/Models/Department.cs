@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace YouCanFly.Models
 {
-    public class Classes //לשנות שם ליחיד +לשנות שם של המודל ל///unit
+    public class Department //לשנות שם ליחיד +לשנות שם של המודל ל///unit
     {
          [Key]
 

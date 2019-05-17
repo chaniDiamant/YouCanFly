@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace YouCanFly.Models
 {
-    public class PlaneUnit
+    public class PlaneDepartment
     {//לשנות שם של מחלקת classId
         [Key]
         public int PlanesId { get; set; }
         public Planes Plane { get; set; }
        
-        public int ClassesId { get; set; }
+        public int DepartmentId { get; set; }
      
-        public Classes Class { get; set; }
+        public Department department { get; set; }
     }
 }
